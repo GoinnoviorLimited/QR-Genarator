@@ -9,7 +9,7 @@ const Menubar = ({ onSidebarToggle }) => {
 
     const menuItems = [
         { id: "/dashboard", icon: Home, label: "Dashboard" },
-        { id: "/dashboard/analytics", icon: BarChart3, label: "Analytics" },
+        { id: "/dashboard/products", icon: BarChart3, label: "Products" },
         { id: "users", icon: Users, label: "Users" },
         { id: "projects", icon: FolderOpen, label: "Projects" },
         { id: "messages", icon: MessageCircle, label: "Messages" },
@@ -97,7 +97,7 @@ const Menubar = ({ onSidebarToggle }) => {
                                 <Link
                                     href={item.id}
                                     onClick={() => handleItemClick(item.id)}
-                                    className={`w-full flex items-center px-1 py-3 rounded-2xl transition-all duration-500 group relative overflow-hidden ${isActive ? "text-white shadow-2xl" : "text-emerald-100/80 hover:text-white hover:translate-x-2"
+                                    className={`w-full flex items-center px-1 py-3 rounded-2xl transition-all duration-500 group relative overflow-hidden ${isActive ? "text-white shadow-2xl" : "text-emerald-100/80 hover:text-white"
                                         }`}
                                     style={
                                         isActive

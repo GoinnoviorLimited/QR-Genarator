@@ -2,7 +2,7 @@
 
 import { Search, Bell, User, Sun, Moon, Settings, LogOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+
 import {
     DropdownMenu,
     DropdownMenuContent,
